@@ -1,0 +1,39 @@
+/* CSS for the progress bar */
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: green;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .step-labels {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+  }
+  
+  .step-labels span {
+    font-size: 14px;
+    color: gray;
+    width: 20px;
+    text-align: center;
+  }
+  
+  .step-labels span.active {
+    color: black;
+  }
+  
